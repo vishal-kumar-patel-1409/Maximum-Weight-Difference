@@ -3,7 +3,7 @@ Telling the Chef the maximum possible difference between the weight carried by h
 
 int MaximumWeightDifference(int[] arr,int N,int k)
 {
-                 //Sorting
+                 //Sorting usig Bubble Sort
 
 		for (int i = 1; i < N; i++) 
         {
