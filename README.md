@@ -5,7 +5,7 @@ int MaximumWeightDifference(int[] arr,int N,int k)
 
 {
                  
-		 //Sorting usig Bubble Sort
+		 //Sorting using Bubble Sort
 
 		for (int i = 1; i < N; i++) 
        {
@@ -41,6 +41,8 @@ int MaximumWeightDifference(int[] arr,int N,int k)
 
   // Maximum Weight Difference
    return sum2-sum1;
-}
+   
+   
+   }
 
 
