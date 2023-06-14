@@ -2,21 +2,23 @@
 Telling the Chef the maximum possible difference between the weight carried by him & his son
 
 int MaximumWeightDifference(int[] arr,int N,int k)
+
 {
-                 //Sorting usig Bubble Sort
+                 
+		 //Sorting usig Bubble Sort
 
 		for (int i = 1; i < N; i++) 
-        {
+       {
 			for (int j = 0; j < N-1; j++) 
-            {
+              {
 				if(arr[j] > arr[j+1]) 
                                 {
 					int temp = arr[j];
 					arr[j] = arr[j+1];
 					arr[j+1] = temp;
                                 }
-			}
- }
+	      }
+       }
 
     if(k>N/2)
     {
